@@ -1,6 +1,9 @@
 body {
   font-family: sans-serif;
 }
+p {
+  line-height: 0.5em;
+}
 
 input {
   border-radius: 16px;
@@ -8,6 +11,7 @@ input {
   padding: 6px 16px;
   outline: none;
 }
+
 button {
   border-radius: 16px;
   border: none;
@@ -39,4 +43,17 @@ button:hover {
   height: 200px;
   padding: 8px;
   margin: 8px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 0;
+  font-weight: bold;
+  color: #666;
+}
+
+.list-row {
+  display: flex;
+  align-items: center;
+  padding-bottom: 4px;
 }
